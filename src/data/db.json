@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Blog 1",
+      "body": "Lorem epsum a quick brown fox jumps over a lazy dog",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "title": "Blog 2",
+      "body": "Lorem epsum a quick brown fox jumps over a lazy dog",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "title": "Blog 3",
+      "body": "Lorem epsum a quick brown fox jumps over a lazy dog",
+      "likes": 0
+    },
+    {
+      "title": "Test Blog 1",
+      "body": "I had a similar problem which this approach solved. Although unlike the hard coded products array in this question I was fetching an array of data from a database. Anyway, the idea is that products && products.map(..... is first checking to make sure that products isn't undefined (or has a truthy value at least). If it's undefined, the products.map won't execute",
+      "likes": 0,
+      "id": 4
+    }
+  ]
+}
